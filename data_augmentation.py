@@ -1,8 +1,8 @@
 import Augmentor
-path = "/Users/rouven/Documents/SCPD/CS230/CS230_Project/MAR18/"
-subset = "train" #e.g. "train"
+path = "/Path/to/dataset/"
+subfolder = "train" #e.g. "train"
 
-p = Augmentor.Pipeline(path + subset)
+p = Augmentor.Pipeline(path + subfolder)
 
 # Augmentation parameters
 p.crop_by_size(1, 96, 96, centre=False)
@@ -17,7 +17,7 @@ p.zoom(1, min_factor=1.0, max_factor=1.6)
 p.random_distortion(0.5, 5, 5, 1)
 p.resize(probability=1.0, width=96, height=96)    
 
-p.ground_truth(path + subset + "_labels")
+p.ground_truth(path + subfolder + "_labels")
 
 parameters ="""
 p.crop_by_size(1, 96, 96, centre=False)
@@ -33,7 +33,7 @@ p.random_distortion(0.5, 5, 5, 1)
 p.resize(probability=1.0, width=96, height=96)  
 """
 
-with open(path + "augmentation_" + subset + ".txt", "w") as text_file:
+with open(path + "augmentation_" + subfolder + ".txt", "w") as text_file:
     text_file.write(parameters)
     
 p.sample(250)
