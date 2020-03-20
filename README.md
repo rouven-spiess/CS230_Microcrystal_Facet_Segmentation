@@ -1,5 +1,5 @@
 # CS230-Microcrystal-Facet-Segmentation
-Microcrystal facet segmentation algorithm based on a U-NET architecture.
+Microcrystal facet segmentation algorithm based on U-NET architecture.
 
 ## Table of contents
 * [General info](#general-info)
