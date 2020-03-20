@@ -12,13 +12,12 @@ Microcrystal facet segmentation algorithm based on U-NET architecture.
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
-
+The goal of this project is to build an appropriate CNN architecture that is able to perform semantic segmentation of nanocrystal facets. 
 ## Screenshots
 ![Example screenshot](predictions2.png)
 
 ## Technologies
-* python - version 1.0
+* python - version 3.6
 * keras - version 2.0
 * python_opencv - version 3.0
 * Augmentor - version 3.0
@@ -28,7 +27,24 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`from keras_segmentation.models.unet import unet_mini, vgg_unet, mobilenet_unet, 
+unet
+
+model = unet_mini(n_classes=96,  input_height=96, input_width=96  )
+
+model.train(
+    train_images = "MAR18/train/",
+    train_annotations = "MAR18/train_labels/",
+    checkpoints_path = "MAR18/checkpoints_MAR18_unet_mini_b8",
+    val_images = "MAR18/test/",
+    val_annotations = "MAR18/test_labels/",
+    epochs=50, validate=True, batch_size=8, 
+    optimizer_name="adam",
+    gen_use_multiprocessing=True,
+    auto_resume_checkpoint=False,
+    val_batch_size=2,
+)
+`
 
 ## Features
 List of features ready and TODOs for future development
