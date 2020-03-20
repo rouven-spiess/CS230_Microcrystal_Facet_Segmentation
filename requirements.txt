@@ -3,3 +3,9 @@ h5py
 tqdm
 keras
 opencv-python
+pillow
+numpy
+os
+sys
+re
+Augmentor
