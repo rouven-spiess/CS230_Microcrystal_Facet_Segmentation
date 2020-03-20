@@ -1,6 +1,0 @@
-pillow
-numpy
-os
-sys
-re
-Augmentor
