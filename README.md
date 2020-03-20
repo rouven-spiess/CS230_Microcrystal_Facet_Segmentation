@@ -27,7 +27,8 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Show examples of usage:
-`from keras_segmentation.models.unet import unet_mini, vgg_unet, mobilenet_unet, 
+```
+from keras_segmentation.models.unet import unet_mini, vgg_unet, mobilenet_unet, 
 unet
 
 model = unet_mini(n_classes=96,  input_height=96, input_width=96  )
@@ -44,7 +45,7 @@ model.train(
     auto_resume_checkpoint=False,
     val_batch_size=2,
 )
-`
+
 
 ## Features
 List of features ready and TODOs for future development
