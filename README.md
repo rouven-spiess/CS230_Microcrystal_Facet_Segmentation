@@ -18,9 +18,10 @@ Add more general information about project. What the purpose of the project is? 
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* python - version 1.0
+* keras - version 2.0
+* python_opencv - version 3.0
+* Augmentor - version 3.0
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
