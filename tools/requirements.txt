@@ -3,3 +3,4 @@ numpy
 os
 sys
 re
+Augmentor
