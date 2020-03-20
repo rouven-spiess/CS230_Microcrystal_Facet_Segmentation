@@ -15,7 +15,7 @@ Microcrystal facet segmentation algorithm based on U-NET architecture.
 Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/predictions2.png)
 
 ## Technologies
 * python - version 1.0
