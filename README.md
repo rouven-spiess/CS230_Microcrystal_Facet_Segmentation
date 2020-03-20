@@ -13,6 +13,9 @@ Microcrystal facet segmentation algorithm based on U-NET architecture.
 
 ## General info
 The goal of this project is to build an appropriate CNN architecture that is able to perform semantic segmentation of nanocrystal facets. 
+
+## Model
+keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
 ## Screenshots
 ![Example screenshot](predictions2.png)
 
@@ -20,6 +23,7 @@ The goal of this project is to build an appropriate CNN architecture that is abl
 * python - version 3.6
 * keras - version 2.0
 * python_opencv - version 3.0
+* keras_segmentation - version
 * Augmentor - version 3.0
 
 ## Setup
