@@ -45,7 +45,7 @@ model.train(
     auto_resume_checkpoint=False,
     val_batch_size=2,
 )
-
+```
 
 ## Features
 List of features ready and TODOs for future development
