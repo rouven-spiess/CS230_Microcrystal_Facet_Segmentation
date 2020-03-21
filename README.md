@@ -20,11 +20,11 @@ keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
 ![Example screenshot](predictions2.png)
 
 ## Technologies
-* python - version 3.6
-* keras - version 2.0
-* python_opencv - version 3.0
-* keras_segmentation - version
-* Augmentor - version 3.0
+* python - version 3.6.5
+* keras - version 2.3.0
+* opencv_python - version 4.2.0.32
+* keras_segmentation 
+* Augmentor - version 0.2.8
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
