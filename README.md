@@ -22,8 +22,8 @@ keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
 ## Technologies
 * python - version 3.6.5
 * keras - version 2.3.0
-* opencv_python - version 4.2.0.32
 * keras_segmentation 
+* opencv_python - version 4.2.0.32
 * Augmentor - version 0.2.8
 
 ## Setup
@@ -32,17 +32,16 @@ Describe how to install / setup your local environement / add link to demo versi
 ## Code Examples
 Show examples of usage:
 ```
-from keras_segmentation.models.unet import unet_mini, vgg_unet, mobilenet_unet, 
-unet
+from keras_segmentation.models.unet import unet_mini
 
-model = unet_mini(n_classes=96,  input_height=96, input_width=96  )
+model = unet_mini(n_classes=4,  input_height=96, input_width=96  )
 
 model.train(
-    train_images = "MAR18/train/",
-    train_annotations = "MAR18/train_labels/",
-    checkpoints_path = "MAR18/checkpoints_MAR18_unet_mini_b8",
-    val_images = "MAR18/test/",
-    val_annotations = "MAR18/test_labels/",
+    train_images = "Dataset/train/",
+    train_annotations = "Dataset/train_labels/",
+    checkpoints_path = "Dataset/checkpoints",
+    val_images = "Dataset/test/",
+    val_annotations = "Dataset/test_labels/",
     epochs=50, validate=True, batch_size=8, 
     optimizer_name="adam",
     gen_use_multiprocessing=True,
