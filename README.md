@@ -27,7 +27,8 @@ keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
 * Augmentor - version 0.2.8
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Available soon
+<!--Describe how to install / setup your local environement / add link to demo version.-->
 
 ## Code Examples
 Show examples of usage:
