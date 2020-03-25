@@ -52,19 +52,16 @@ model.train(
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Train 3 different U-NET variants
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Wrap code and make setup.py
 
 ## Status
 Project is: _in progress_ <!-- a normal html comment _finished_, _no longer continue_ and why?-->
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
+<!--## Inspiration-->
+<!--Add here credits. Project inspired by..., based on...-->
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+<!--## Contact-->
+<!--Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!-->
