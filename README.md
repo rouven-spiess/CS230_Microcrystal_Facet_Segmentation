@@ -17,7 +17,7 @@ The goal of this project is to build an appropriate CNN architecture that is abl
 ## Model
 keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
 ## Screenshots
-![Example screenshot](predictions2.png)
+![Example screenshot](image.png)
 
 ## Technologies
 * python - version 3.6.5
