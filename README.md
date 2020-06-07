@@ -59,7 +59,7 @@ List of features ready and TODOs for future development
 ## Status
 Project is: _finished_ <!-- a normal html comment _finished_, _no longer continue_ and why?-->
 
-## Link
+## Report
 CS230 Winter 2020 (http://cs230.stanford.edu/projects_winter_2020/reports/32641590.pdf)
 
 <!--## Inspiration-->
