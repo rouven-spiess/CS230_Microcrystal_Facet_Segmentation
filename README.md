@@ -27,8 +27,8 @@ keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
 * opencv_python - version 4.2.0.32
 * Augmentor - version 0.2.8
 
-## Setup
-Available soon
+<!--## Setup-->
+<!--Available soon-->
 <!--Describe how to install / setup your local environement / add link to demo version.-->
 
 ## Code Examples
@@ -54,13 +54,13 @@ model.train(
 
 ## Features
 List of features ready and TODOs for future development
-* Train 3 different U-NET variants
-
-To-do list:
-* Wrap code and make setup.py
+* Train on 3 different U-NET architecture variants
 
 ## Status
-Project is: _in progress_ <!-- a normal html comment _finished_, _no longer continue_ and why?-->
+Project is: _finished_ <!-- a normal html comment _finished_, _no longer continue_ and why?-->
+
+## Link
+CS230 Winter 2020 (http://cs230.stanford.edu/projects_winter_2020/reports/32641590.pdf)
 
 <!--## Inspiration-->
 <!--Add here credits. Project inspired by..., based on...-->
