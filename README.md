@@ -12,7 +12,7 @@ Microcrystal facet segmentation algorithm based on U-NET architecture.
 * [Contact](#contact)
 
 ## General info
-The goal of this project is to build an appropriate CNN architecture that is able to perform semantic segmentation of cuprous oxide Cu2O nanocrystal facets. 
+The goal of this project is to train an appropriate CNN architecture that is able to perform semantic segmentation of cuprous oxide Cu2O nanocrystal facets. 
 
 ## Baseline Model
 keras implementation (https://github.com/divamgupta/image-segmentation-keras/)
